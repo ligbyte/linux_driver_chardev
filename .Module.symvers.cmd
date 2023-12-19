@@ -1,0 +1,1 @@
+cmd_/home/jeek/Documents/linux_driver_chardev/Module.symvers := sed 's/\.ko$$/\.o/' /home/jeek/Documents/linux_driver_chardev/modules.order | scripts/mod/modpost -m -a  -o /home/jeek/Documents/linux_driver_chardev/Module.symvers -e -i Module.symvers   -T -
